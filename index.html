@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlitzCare Housekeepers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>GlitzCare Housekeepers</h1>
+    <div class="tagline">Where Care Meets Clean</div>
+  </header>
+
+  <div class="content">
+    <div class="section">
+      <h2>Book Our Services</h2>
+      <form action="mailto:glitzcarehousekeepers@gmail.com" method="POST" enctype="text/plain">
+        <label>Venue Address:</label><br>
+        <input type="text" name="venue" required><br>
+
+        <label>Size of Property:</label><br>
+        <select name="size">
+          <option>Flat / Small Unit</option>
+          <option>1-Bed House</option>
+          <option>2–3 Bed House</option>
+          <option>4+ Bed House</option>
+          <option>Full House</option>
+        </select><br>
+
+        <label>Number of Persons:</label><br>
+        <input type="number" name="persons" min="1" required><br>
+
+        <label>Preferred Service:</label><br>
+        <select name="service">
+          <option>Standard Cleaning</option>
+          <option>Deep Cleaning</option>
+          <option>Laundry & Ironing</option>
+          <option>Move-In / Move-Out Cleaning</option>
+        </select><br>
+
+        <label>Preferred Time:</label><br>
+        <input type="datetime-local" name="time"><br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel" name="phone" value="078 876 8953"><br><br>
+
+        <input type="submit" value="Submit Booking">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 GlitzCare Housekeepers. All rights reserved.
+  </footer>
+
+</body>
+</html>
