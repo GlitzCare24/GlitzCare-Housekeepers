@@ -22,6 +22,3 @@ We're here to help!
 
 Thank you for choosing GlitzCare Housekeepers – where cleanliness meets care.
 
----
-
-This version includes your contact number and email. Let me know if you need anything else!
